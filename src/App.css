@@ -1,0 +1,91 @@
+.App{
+  padding-top: 10rem;
+  padding-left: 25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.score{
+  margin-top: 1rem;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(98, 24, 163);
+  width: 20rem;
+  height: 25rem;
+  border-radius: 1.5rem;
+  gap: 1.5rem;
+}
+
+.summary {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.percentile {
+  margin: 2rem 3rem;
+  margin-top: 0rem;
+  font-size: 1rem;
+}
+
+.circle {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: rgb(53, 13, 107);
+  justify-content: center;
+  align-items: center;
+}
+
+.circle p{
+    text-align: center;
+  }
+
+.circle p:first-child {
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.circle p:last-child {
+  font-size: 0.7rem;
+  color: rgba(216, 216, 216, 0.996);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+button {
+  width: 16rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+  color: white;
+  background-color: rgb(35, 35, 91);
+  }
+
+button:hover {
+  background-color: #322d37;
+}
+
+.summ{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  
+   
+
+  
+}

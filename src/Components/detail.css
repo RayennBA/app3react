@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div .Detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    width: 16rem;
+    height: 2.5rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+div .title{
+    display: flex;
+    gap: 0.8rem;
+}
+
+img{
+    width: 0.7rem;
+}
+
+div .Detail p span{
+    font-weight: normal;
+    
+}
